@@ -1,4 +1,6 @@
-plugins { id 'com.android.application' }
+plugins {
+    id 'com.android.application'
+}
 
 android {
     namespace 'com.forestgps.navigator'
@@ -11,4 +13,9 @@ android {
         versionCode 1
         versionName '1.0'
     }
+}
+
+dependencies {
+    implementation 'androidx.activity:activity:1.9.3'
+    implementation 'androidx.core:core:1.15.0'
 }
